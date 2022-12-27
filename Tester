@@ -3,7 +3,7 @@ menu = gg.multiChoice({
 'ঔৣ͜͡➳『BUG START ON』',
 'ঔৣ͜͡➳『BUG START OFF』',
 '『ᴇxɪᴛ』',
-}, nil, os.date ("●▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬●\n▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄\n              •PANDU CPM•\n▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄\n●▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬●\n\n╭╾•Tanggal : %Y , %m %d\n╰╾•Jam : %X , %p \n"))
+}, nil, os.date ("y\n\n              •PANDU CPM•\ny\n\n\n╭╾•Tanggal : %Y , %m %d\n╰╾•Jam : %X , %p \n"))
 if menu == nil then else
 if menu[1] == true then BUGSTARTON() end
 if menu[2] == true then BUGSTARTOFF() end
@@ -24,7 +24,7 @@ gg.processResume()
 revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("0;0;0;0", gg.TYPE_DWORD)
 gg.processResume()
-gg.toast("✔ON✔")
+gg.toast("i")
 end
 
 function BUGSTARTOFF()
@@ -38,7 +38,7 @@ gg.processResume()
 revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("0;0;0;0", gg.TYPE_DWORD)
 gg.processResume()
-gg.toast("✘OF✘")
+gg.toast("o")
 end
 
 keluar = 4
